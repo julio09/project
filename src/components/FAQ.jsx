@@ -3,7 +3,7 @@ import React from 'react'
 function FAQ() {
   return (
     <>
-    <div className='flex flex-col gap-[80px] py-[80px] px-[124px] items-center'>
+    <div className='font-[Montserrat] flex flex-col gap-[80px] py-[80px] px-[124px] items-center'>
       <div className='flex flex-col gap-[24px] items-center self-stretch'>
         <h3  className='uppercase font-semibold text-[24px] text-bluesky leading-normal'>Foires aux questions</h3>
         <p className='self-stretch font-bold leading-normal text-[40px] text-center '>Penatibus volutpat mi faucibus id interdum accumsan diam et</p>

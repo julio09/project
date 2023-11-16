@@ -4,7 +4,7 @@ import {Perso} from '../assets'
 const infoSection = () => {
   return (
     <>
-    <div className=' flex px-[124px] py-[80px] flex-col items-center gap-[80px] bg-white'>
+    <div className='font-[Montserrat] flex px-[124px] py-[80px] flex-col items-center gap-[80px] bg-white'>
       <section className='relative flex bg-image-gradient-258deg  px-[80px] py-[64px] gap-[40px] self-stretch rounded-[40px] '>
         <div className='flex flex-col items-start gap-[40px] flex-1'>
           <p className='text-white leading-normal text-[40px] font-bold'>Vestibulum penatibus sed blandit aliquam felis dui non a velit. </p>
@@ -55,6 +55,14 @@ const infoSection = () => {
           <button className='px-[40px] py-[18px] text-[18px] leading-normal text-grayCe font-semibold flex items-start rounded-[6px] bg-white gap-[10px] '>Lorem ipsum dolor sit</button>
         </div>
         <div className='flex items-start gap-[10px] flex-1 self-stretch'>
+          <div className='absolute -bottom-[130px] -right-[128px]'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="654" height="661" viewBox="0 0 654 661" fill="none">
+                <path d="M3.48447 232.384C-5.53127 212.125 3.55172 188.38 23.7719 179.347L168.426 114.727C188.646 105.694 212.347 114.794 221.363 135.053L285.861 279.981C294.876 300.24 285.793 323.985 265.573 333.018L120.919 397.638C100.699 406.671 76.9984 397.571 67.9826 377.313L3.48447 232.384Z" fill="white" fill-opacity="0.08"/>
+                <path d="M119.136 492.254C110.12 471.996 119.203 448.251 139.423 439.218L284.077 374.597C304.298 365.564 327.998 374.665 337.014 394.923L401.512 539.852C410.528 560.11 401.445 583.856 381.225 592.888L236.57 657.509C216.35 666.542 192.65 657.442 183.634 637.183L119.136 492.254Z" fill="white" fill-opacity="0.08"/>
+                <path d="M252.488 121.148C243.472 100.89 252.555 77.1444 272.775 68.1115L417.43 3.49107C437.65 -5.54175 461.35 3.55845 470.366 23.817L534.864 168.746C543.88 189.004 534.797 212.749 514.577 221.782L369.923 286.403C349.702 295.436 326.002 286.335 316.986 266.077L252.488 121.148Z" fill="white" fill-opacity="0.08"/>
+                <path d="M368.139 381.019C359.124 360.76 368.207 337.015 388.427 327.982L533.081 263.362C553.301 254.329 577.002 263.429 586.017 283.687L650.516 428.616C659.531 448.875 650.448 472.62 630.228 481.653L485.574 546.273C465.354 555.306 441.653 546.206 432.637 525.947L368.139 381.019Z" fill="white" fill-opacity="0.08"/>
+          </svg>
+          </div>
         <img src={Perso} alt='' className='absolute bottom-0 right-0'/>
         </div>
       </section>

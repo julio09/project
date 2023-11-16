@@ -5,7 +5,7 @@ import { listItems,BlogItems } from '../constants/index'
 const Footer = () => {
   return (
     <>
-    <div className='flex px-[194px] py-[80px] w-full justify-between leading-normal items-start text-white bg-dark'>
+    <div className='font-[Montserrat] flex px-[194px] py-[80px] w-full justify-between leading-normal items-start text-white bg-dark'>
       <div className='flex flex-col h-[275px] justify-between items-center'>
       <div className='flex flex-col items-center gap-2'>
         <img src={LogoDark} alt='' className='w-[88px] h-[88px]' />

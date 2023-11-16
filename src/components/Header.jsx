@@ -5,7 +5,7 @@ import { listItems } from '../constants/index'
 const Header = () => {
   return (
     <>
-    <nav className="w-full lg:px-[80px] md:px-[50px] md:py-[12px] px-4 py-6 lg:py-[20px] md:flex md:justify-between md:items-center">
+    <nav className="font-[Montserrat] w-full lg:px-[80px] md:px-[50px] md:py-[12px] px-4 py-6 lg:py-[20px] md:flex md:justify-between md:items-center">
         <div className='flex gap-1 md:gap-2 items-center'>
           <img src={Logo} alt="" />
           <span className='font-semibold md:font-bold text-lg md:text-xl'>Logo</span>

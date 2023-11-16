@@ -3,7 +3,7 @@ import React from 'react'
 const cardSection = () => {
   return (
     <>
-    <section className='py-[140px] mb-10 px-[124px] gap-[80px] flex flex-col items-center'>
+    <section className='font-[Montserrat] py-[140px] mb-10 px-[124px] gap-[80px] flex flex-col items-center'>
       <div className='flex flex-col items-center gap-[24px] self-stretch'>
         <p className='text-[#0C83C7] text-[18px] font-semibold leading-normal uppercase'>Lorem ipsum dolor sit</p>
         <p className='self-stretch text-center text-[40px] font-semibold leading-normal'>Nunc adipiscing ultricies sit erat mattis odio amet tincidunt</p>

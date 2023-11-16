@@ -4,7 +4,7 @@ import {Trano,Trano2,Trano3,Trano4} from '../assets'
 const Affiche = () => {
   return (
     <>
-    <div className='px-[124px] py-[80px] flex flex-col gap-[80px] items-center'>
+    <div className='font-[Montserrat] px-[124px] py-[80px] flex flex-col gap-[80px] items-center'>
       <section className='gap-[24px] self-stretch items-center flex flex-col'>
       <h3 className='uppercase text-bluesky text-[24px] leading-normal font-bold'>Lorem ipsum dolor sit</h3>
       <p className='self-stretch text-center text-[40px] font-semibold '>Sed laoreet netus malesuada eget cras</p>
