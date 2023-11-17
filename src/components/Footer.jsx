@@ -14,7 +14,7 @@ const Footer = () => {
       <span className='md:text-[16px] text-[12px] font-extralight'>© lorem 2023</span>
       </div>
       <div className='flex flex-col gap-6 md:gap-[40px] justify-center items-center md:items-start '>
-        <span className='uppercase md:text-[24px] font-semibold'>menu</span>
+        <span className='uppercase  md:text-[28px] font-semibold'>menu</span>
         <ul className='flex md:flex-col gap-2 md:gap-[18px] font-extralight items-start'>
           {listItems}
         </ul>
