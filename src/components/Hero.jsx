@@ -1,10 +1,25 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import { GLS, HeroK, RMP, alibaba, building } from '../assets'
+
+
+
 
 const Hero = () => {
   return (
     <>
-    <section className='font-[Montserrat] md:relative items-center justify-centers md:flex md:w-full pt-10 md:pt-[124px]'>
+    <motion.div
+    variants={{hidden:{
+      opacity:0 ,y:75},
+      visible: {opacity:1 , y:0},
+    }}
+    initial="hidden" animate="visible" transition={{duration: 0.4,type:"spring", delay: 0.2}}
+    className=' relative font-[Montserrat] items-center justify-centers md:flex md:w-full pt-10 md:pt-[124px]'>
+      <div className='hidden md:flex md:absolute right-0 -top-60 z-0 shrink-0'>
+        <svg xmlns="http://www.w3.org/2000/svg"  width="1728" height="1118" viewBox="0 0 1728 1118" fill="none">
+          <path d="M1728 1117L0 1117C410.476 1117 725.314 1126.11 971.5 1030C1761.69 721.499 1723.67 0 864 0H1728L1728 1117Z" fill="#F2F7FB"/>
+        </svg>
+      </div>
       <div className='flex flex-col px-8 md:pl-[124px] mb-[45px] gap-[80px]'>
         <div className='flex flex-col items-center gap-[40px]'>
         <p className='line-clamp-3 md:text-left text-[45px] leading-[94px] text-center font-bold md:text-[86px]'>Mi adipiscing cursus facilisis ullamcorper.</p>
@@ -25,8 +40,8 @@ const Hero = () => {
         </div>
       </div>
       </div>
-      <img className='"md:w-[875px] md:h-[748px]' src={HeroK} alt=''/>
-      </section>
+      <img className='"md:w-[875px] md:h-[748px] z-10' src={HeroK} alt=''/>
+      </motion.div>
     </>
   )
 }
