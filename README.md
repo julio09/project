@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-![Uploading screencapture-kezia-web-netlify-app-2023-11-20-01_16_15.png…]()
+![screencapture-kezia-web-netlify-app-2023-11-20-01_16_15](https://github.com/julio09/project/assets/51336933/673fd0c7-bd75-478e-80de-bf1b2c19a5d7)
